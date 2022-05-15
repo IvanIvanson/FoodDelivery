@@ -1,15 +1,28 @@
-* {
-    margin:0;
-    padding:0;
-}
-body{
+@import "_settings";
+@import "_fonts";
+
+.wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 100%;
     min-height: 100vh;
-    .wrapper{
+
+    .content {
+        margin: 0 auto;
         flex-grow: 1;
+        width: 1440px;
+        max-width: 100%;
+        min-width: 300px;
+
+       @import "module/_header";
+       @import "module/frame22";
     }
-    .footer{
-        height: 100px;
-    }
+   @import "module/footer";
 }
+ @import "module/_header-media750";
+ @import "module/_frame22media750";
+ @import "module/_footermedia750";
+
+
+      

@@ -7,7 +7,6 @@
     justify-content: center;
     width: 100%;
     min-height: 100vh;
-    border: solid rgb(25, 0, 255) 2px;
 
     .content {
         margin: 0 auto;
@@ -15,7 +14,6 @@
         width: 1440px;
         max-width: 100%;
         min-width: 300px;
-        border: solid red 2px;
 
        @import "module/_header";
        @import "module/frame22";

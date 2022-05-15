@@ -19,7 +19,6 @@
           justify-content: center;
   width: 100%;
   min-height: 100vh;
-  border: solid #1900ff 2px;
 }
 
 .wrapper .content {
@@ -30,7 +29,6 @@
   width: 1440px;
   max-width: 100%;
   min-width: 300px;
-  border: solid red 2px;
 }
 
 .wrapper .content .header {
@@ -86,7 +84,7 @@
   height: 5px;
   margin-top: 10px;
   border-radius: 10px;
-  background: #d01212;
+  background: #737373;
 }
 
 .wrapper .content .header .navbar .navbar__frame .burger .bar::after {
@@ -96,7 +94,7 @@
   height: 5px;
   margin-top: 5px;
   border-radius: 10px;
-  background: #6812d0;
+  background: #737373;
 }
 
 .wrapper .content .header .navbar .navbar__frame .navbar__frame-right ul {
@@ -243,7 +241,6 @@
   margin: 0 auto;
   max-width: 1038px;
   min-width: 300px;
-  border: solid #00ff26 2px;
   padding-top: 68px;
 }
 
@@ -273,7 +270,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: solid red 2px;
   gap: 40px;
 }
 
@@ -287,7 +283,6 @@
   padding-top: 68px;
   padding-right: 20px;
   padding-bottom: 42px;
-  border: solid #16c73f 4px;
   min-width: 300px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -295,7 +290,6 @@
 }
 
 .wrapper .content .frame22 .frame22-content .frame22-content-right {
-  border: solid #0956d2 2px;
   padding-top: 64px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -372,7 +366,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: solid red 2px;
   gap: 0px;
 }
 
@@ -386,7 +379,6 @@
   padding-top: 68px;
   padding-right: 20px;
   padding-bottom: 42px;
-  border: solid #16c73f 4px;
   min-width: 300px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -394,7 +386,6 @@
 }
 
 .wrapper .content .frame22 .frame23-content .frame23-content-left {
-  border: solid #0956d2 2px;
   padding-top: 64px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -471,7 +462,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: solid red 2px;
 }
 
 .wrapper .content .frame22 .frame24-content .frame24-content-left {
@@ -484,7 +474,6 @@
   padding-top: 68px;
   padding-right: 20px;
   padding-bottom: 42px;
-  border: solid #16c73f 4px;
   min-width: 300px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -492,7 +481,6 @@
 }
 
 .wrapper .content .frame22 .frame24-content .frame24-content-right {
-  border: solid #0956d2 2px;
   padding-top: 64px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -573,7 +561,6 @@
   min-width: 320px;
   margin: 0 auto;
   background: #fff;
-  border: solid red 3px;
 }
 
 .wrapper .footer .footer__left {
@@ -803,7 +790,6 @@
     margin: 0 auto;
     max-width: 1038px;
     min-width: 300px;
-    border: solid #00ff26 2px;
     padding-top: 48px;
   }
   .wrapper .content .frame22 h1 {
@@ -831,7 +817,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: solid red 2px;
     gap: 0px;
   }
   .wrapper .content .frame22 .frame22-content .frame22-content-left {
@@ -844,14 +829,12 @@
     padding-top: 48px;
     padding-right: 20px;
     padding-bottom: 42px;
-    border: solid #16c73f 4px;
     min-width: 300px;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
   }
   .wrapper .content .frame22 .frame22-content .frame22-content-right {
-    border: solid #0956d2 2px;
     padding-top: 34px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -929,7 +912,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: solid red 2px;
     gap: 0px;
   }
   .wrapper .content .frame22 .frame23-content .frame23-content-right {
@@ -943,7 +925,6 @@
     padding-right: 40px;
     padding-left: 40px;
     padding-bottom: 42px;
-    border: solid #16c73f 4px;
     max-width: 500px;
     min-width: 300px;
     -webkit-box-flex: 1;
@@ -954,7 +935,6 @@
             order: 1;
   }
   .wrapper .content .frame22 .frame23-content .frame23-content-left {
-    border: solid #0956d2 2px;
     padding-top: 24px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1035,7 +1015,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: solid red 2px;
   }
   .wrapper .content .frame22 .frame24-content .frame24-content-left {
     display: -webkit-box;
@@ -1047,14 +1026,12 @@
     padding-top: 48px;
     padding-right: 0px;
     padding-bottom: 42px;
-    border: solid #16c73f 4px;
     min-width: 300px;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
   }
   .wrapper .content .frame22 .frame24-content .frame24-content-right {
-    border: solid #0956d2 2px;
     padding-top: 34px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1140,7 +1117,6 @@
     min-width: 320px;
     margin: 0 auto;
     background: #fff;
-    border: solid red 3px;
   }
   .wrapper .footer .footer__left {
     margin-left: 0px;
@@ -1153,7 +1129,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: solid #2200ff 3px;
     width: 50%;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;

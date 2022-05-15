@@ -1,0 +1,173 @@
+ .header {
+            width: 100%;
+
+            .navbar {
+                width: 100%;
+                padding: 13px 37px 12px 90px;
+                .navbar__frame {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .navbar__frame-left {
+                        padding-left: 0;
+                    }
+                    .burger{
+                        display: none;
+                    //     flex-direction: column;
+                    // justify-content: center;
+                    // align-items: center;
+
+                     width: 50px;
+                            height: 50px;
+                           .inp-burger{
+                               display: none;
+                           }
+                        .bar{
+                            display: inline-block;
+                            width: 50px;
+                            height: 5px;
+                            border-radius: 10px;
+                            background: #737373;
+                            transition:.5s;
+margin-top: 5px;
+                        }
+                         .bar::before{
+                             content:'';
+                             display: block;
+                             width: 50px;
+                            height: 5px;
+                            margin-top: 10px;
+                            border-radius: 10px;
+                            background: #d01212;
+                         }
+                          .bar::after{
+                             content:' ';
+                             display: block;
+                             width: 50px;
+                            height: 5px;
+                            margin-top: 5px;
+                            border-radius: 10px;
+                            background: #6812d0;
+                         }
+                    }
+
+                    .navbar__frame-right {
+                        
+                        ul {
+                            display: flex;
+                            justify-content: space-between;
+                            width: 474px;
+                            margin: 0;
+
+                            li {
+                                list-style: none;
+                                display: inline;
+
+                                a {
+                                    text-decoration: none;
+                                    font-family: "Montserrat";
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 16px;
+                                    line-height: 28px;
+                                    /* identical to box height, or 175% */
+
+                                    text-align: center;
+                                    letter-spacing: 0.2px;
+                                    color: #252b42;
+                                }
+                                a:hover {
+                                    color: #fa4a0c;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .header__baner {
+                background-image: url("../image/headerBg.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                width: 1440px;
+                height: 619px;
+                max-width: 100%;
+                min-width: 300px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .text-content {
+                    h4 {
+                        font-family: "Montserrat", sans-serif;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 38px;
+                        /* identical to box height, or 158% */
+
+                        text-align: center;
+                        letter-spacing: 0.2px;
+
+                        color: #f7f7f7;
+                    }
+                    h4 .bella {
+                        margin-top: 10px;
+                    }
+                    h1 {
+                        font-family: "Montserrat", sans-serif;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 48px;
+                        // line-height: 80px;
+                        // width: 1094px;
+                        max-width: 1094px;
+                        min-width: 300px;
+                        height: 187px;
+                        text-align: center;
+                        letter-spacing: 0.2px;
+                        padding: 10px 57px 10px 37px;
+                        line-height: 1.8;
+                        color: #ffffff;
+                    }
+                }
+                .button-group {
+                    margin-top: 48px;
+
+                    .btn-playstore {
+                        padding: 16px 58px;
+                        background: #fa4a0c;
+                        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+                        border-radius: 30px;
+                        font-family: "Montserrat", sans-serif;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 36px;
+                        /* identical to box height, or 150% */
+
+                        letter-spacing: 0.1px;
+                        border: none;
+                        /* Light text */
+                        cursor: pointer;
+                        color: #ffffff;
+                    }
+                    .btn-appstore {
+                        padding: 16px 58px;
+                        border: 1px solid #ffffff;
+                        border-radius: 30px;
+                        font-family: "Montserrat", sans-serif;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 36px;
+                        margin-left: 34px;
+                        background-color: transparent;
+                        letter-spacing: 0.1px;
+                        cursor: pointer;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }

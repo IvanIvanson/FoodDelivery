@@ -1,0 +1,17 @@
+ .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1440px;
+        max-width: 100%;
+        min-width: 320px;
+        margin: 0 auto;
+        background: #fff;
+        border: solid red 3px;
+        .footer__left{
+            margin-left: 92px;
+        }
+        .footer__right{
+            margin-right: 35px;
+        }
+    }

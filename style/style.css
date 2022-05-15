@@ -676,10 +676,14 @@
   .wrapper .content .header .navbar .navbar__frame .navbar__frame-right ul li a:hover {
     color: #fa4a0c;
   }
+  .wrapper .content .header .navbar .navbar__frame .navbar__frame-right ul li:hover {
+    z-index: 50;
+  }
   .wrapper .content .header .navbar .navbar__frame .hidden {
     position: absolute;
     left: 30px;
     display: block;
+    z-index: 50;
   }
   .wrapper .content .header .header__baner {
     background-image: url("../image/headerBg.png");
